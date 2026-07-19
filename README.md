@@ -1,122 +1,170 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=UPI+Payments+Without+Internet;Offline+Digital+Payment+System;Secure+%7C+Fast+%7C+Reliable" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&text=ParkEase&fontSize=70&fontColor=ffffff&animation=fadeIn"/>
 
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=Smart+Parking+Management+System;Find+Parking+in+Seconds;AI+Powered+Parking+Experience;Secure+%7C+Fast+%7C+Reliable" />
 
-<img src="https://img.shields.io/github/stars/kriss2012/UpiPayments_Without_Internet?style=for-the-badge&logo=github&color=blue"/>
-<img src="https://img.shields.io/github/forks/kriss2012/UpiPayments_Without_Internet?style=for-the-badge&logo=github&color=purple"/>
-<img src="https://img.shields.io/github/license/kriss2012/UpiPayments_Without_Internet?style=for-the-badge&color=green"/>
-<img src="https://img.shields.io/github/last-commit/kriss2012/UpiPayments_Without_Internet?style=for-the-badge&color=orange"/>
+<br><br>
+
+<img src="https://img.shields.io/github/stars/kriss2012/Parkease?style=for-the-badge&logo=github&color=blue"/>
+<img src="https://img.shields.io/github/forks/kriss2012/Parkease?style=for-the-badge&logo=github&color=purple"/>
+<img src="https://img.shields.io/github/license/kriss2012/Parkease?style=for-the-badge&color=green"/>
+<img src="https://img.shields.io/github/last-commit/kriss2012/Parkease?style=for-the-badge&color=orange"/>
 
 </div>
 
----
+<hr>
 
-# 💸 UPI Payments Without Internet
+<h1 align="center">🚗 ParkEase</h1>
 
-### 🌍 Offline Digital Payment System
+<h3 align="center">
+Smart AI Powered Parking Management System
+</h3>
 
-A futuristic payment solution that enables secure **UPI transactions without an active Internet connection**. The application leverages offline communication technologies such as **Bluetooth, NFC, QR Codes, and encrypted local storage** to initiate and securely store payment requests. Once connectivity is restored, transactions are automatically synchronized with banking servers.
+<p align="center">
+ParkEase is a modern smart parking platform that helps users discover, reserve and manage parking spaces with real-time availability. It reduces traffic congestion, saves time, improves parking efficiency and delivers a seamless digital parking experience.
+</p>
 
----
+<br>
 
-## ✨ Key Features
+<h2>🌟 Features</h2>
 
-- 🌐 Offline UPI Payments
-- 🔐 AES-256 Encryption
-- 📱 QR Code Payments
-- 📡 NFC Support
-- 📶 Bluetooth Connectivity
-- 💾 Secure Local Database
-- 🔄 Automatic Transaction Sync
-- 🛡️ Multi-layer Security
-- ⚡ Fast Transaction Processing
-- 📊 Transaction History
+<ul>
+<li>🚗 Real-Time Parking Availability</li>
+<li>📍 GPS Based Parking Search</li>
+<li>🗺 Interactive Maps</li>
+<li>📱 QR Code Entry & Exit</li>
+<li>💳 Online Payments</li>
+<li>🔔 Smart Notifications</li>
+<li>📊 Parking Analytics Dashboard</li>
+<li>👨‍💼 Admin Panel</li>
+<li>🔒 Secure Authentication</li>
+<li>⚡ Fast Booking Experience</li>
+</ul>
 
----
+<hr>
 
-## 🏗️ Architecture
+<h2>🏗 System Architecture</h2>
 
-```text
- User
-   │
-   ▼
- QR / NFC / Bluetooth
-   │
-   ▼
- Offline Payment Engine
-   │
-   ▼
- Encrypted Local Storage
-   │
-   ▼
- Internet Available
-   │
-   ▼
- Bank UPI Server
-   │
-   ▼
- Payment Successful
-```
+<pre>
+User
+ │
+ ▼
+Search Nearby Parking
+ │
+ ▼
+GPS & Maps API
+ │
+ ▼
+Parking Availability
+ │
+ ▼
+Booking Engine
+ │
+ ▼
+Payment Gateway
+ │
+ ▼
+QR Verification
+ │
+ ▼
+Parking Confirmed
+</pre>
 
----
+<hr>
 
-## 🛠️ Tech Stack
+<h2>🛠 Technology Stack</h2>
 
-| Technology | Usage |
-|------------|-------|
-| Android | Mobile Development |
-| Java | Core Logic |
-| SQLite | Offline Storage |
-| Firebase | Cloud Sync |
-| QR API | QR Payments |
-| Bluetooth API | Offline Communication |
-| NFC | Contactless Payments |
-| AES Encryption | Security |
+<table>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
 
----
+<tr>
+<td>React</td>
+<td>Frontend</td>
+</tr>
 
-## 📂 Project Structure
+<tr>
+<td>Node.js</td>
+<td>Backend</td>
+</tr>
 
-```text
-📦 UpiPayments_Without_Internet
-┣ 📂 app
-┣ 📂 database
-┣ 📂 models
-┣ 📂 services
-┣ 📂 utils
-┣ 📂 assets
-┣ 📂 screenshots
-┣ 📜 README.md
-┗ 📜 LICENSE
-```
+<tr>
+<td>Express.js</td>
+<td>REST API</td>
+</tr>
 
----
+<tr>
+<td>MongoDB</td>
+<td>Database</td>
+</tr>
 
-## 📈 Future Enhancements
+<tr>
+<td>Google Maps API</td>
+<td>Navigation</td>
+</tr>
 
-- 🤖 AI Fraud Detection
-- 🌍 Cross-border Offline Payments
-- ⌚ Smartwatch Support
-- 📡 Mesh Network Communication
-- 🛰️ Satellite Synchronization
-- 🪙 CBDC Integration
+<tr>
+<td>Firebase</td>
+<td>Authentication</td>
+</tr>
 
----
+<tr>
+<td>Razorpay</td>
+<td>Payments</td>
+</tr>
 
-## 👨‍💻 Developer
+</table>
 
-**Krishna Patil**
+<hr>
 
-Backend Developer • Android Developer • AI/ML Enthusiast
+<h2>📂 Project Structure</h2>
 
----
+<pre>
+ParkEase
+│
+├── client
+├── server
+├── database
+├── assets
+├── components
+├── pages
+├── utils
+├── screenshots
+├── README.md
+└── LICENSE
+</pre>
+
+<hr>
+
+<h2>🚀 Future Roadmap</h2>
+
+<ul>
+<li>🤖 AI Parking Prediction</li>
+<li>📷 ANPR Vehicle Detection</li>
+<li>🚘 EV Charging Slot Booking</li>
+<li>📱 Mobile Application</li>
+<li>🛰 Smart City Integration</li>
+<li>☁ Cloud Analytics</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Developer</h2>
+
+<p>
+<b>Krishna Patil</b><br>
+Backend Developer • Full Stack Developer • AI/ML Enthusiast
+</p>
+
+<hr>
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to Star the repository!
+<h2>⭐ Star this Repository if you like it!</h2>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:00E5FF,100:6C63FF&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=gradient"/>
 
 </div>
