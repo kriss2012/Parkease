@@ -1,0 +1,29 @@
+# Node / Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# Python / Cache if any
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database & OS
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
